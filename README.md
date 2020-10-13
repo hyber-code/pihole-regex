@@ -10,9 +10,9 @@ All commands will need to be entered via Terminal (PuTTY or your SSH client of c
 
 ### Add to Pi-Hole
 ```
-curl -sSl https://raw.githubusercontent.com/mmotti/pihole-regex/master/install.py | sudo python3
+curl -sSl https://raw.githubusercontent.com/hyber-code/pihole-regex/master/install.py | sudo python3
 ```
-
+hyber-code
 ### Remove from Pi-Hole
 ```
 curl -sSl https://raw.githubusercontent.com/mmotti/pihole-regex/master/uninstall.py | sudo python3
