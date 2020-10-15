@@ -15,7 +15,7 @@ curl -sSl https://raw.githubusercontent.com/hyber-code/pihole-regex/master/insta
 hyber-code
 ### Remove from Pi-Hole
 ```
-curl -sSl https://raw.githubusercontent.com/mmotti/pihole-regex/master/uninstall.py | sudo python3
+curl -sSl https://raw.githubusercontent.com/hyber-code/pihole-regex/master/uninstall.py | sudo python3
 ```
 
 ### False Positives ###
@@ -30,7 +30,7 @@ The following instructions will create a cron job to run every monday at 02:30 (
 ```
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-30 2 * * 1 /usr/bin/curl -sSl https://raw.githubusercontent.com/mmotti/pihole-regex/master/install.py | /usr/bin/python3
+30 2 * * 1 /usr/bin/curl -sSl https://raw.githubusercontent.com/hyber-code/pihole-regex/master/install.py | /usr/bin/python3
 ```
 3. Save changes
 
